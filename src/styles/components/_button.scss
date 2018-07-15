@@ -1,0 +1,40 @@
+//;samo za veliko dugme
+
+.big-button{
+background: $purple;
+border: none;
+border-bottom: .6rem solid darken($purple, 10%); //10% mracnije od originalne boje
+font-weight: bold;
+font-size: $l-size;
+color: white;
+width: 100%; //da zauzme celu duzinu container-a(60rem=600px);
+margin-bottom: $xl-size;
+padding:2.4rem;
+}
+
+.big-button:disabled{
+
+opacity: .5;
+
+}
+
+//end
+
+//smaller button
+.button{
+background-color: $purple;
+border: none;
+border-bottom: .3rem solid darken($purple,10%);
+color:white;
+font-weight: 500;
+padding: $s-size;
+
+}
+
+//modifikovana verzija buttona iznad, pa se koriste dve -- (BEM,modifier)
+.button--link{
+background: none;
+border:none;
+color: $off-white;
+padding:0;
+}

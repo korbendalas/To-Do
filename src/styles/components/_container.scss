@@ -1,0 +1,6 @@
+.container {
+max-width:60rem;
+  margin: 0 auto;//centriranje elementa
+  //0 gore i dole, a levo i desno automatski odredi
+  padding: 0 $m-size;
+}
